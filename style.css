@@ -1,0 +1,28 @@
+body {
+    background-color:  #F7F6DC;
+    color:#E0144C;} 
+    
+    @media (min-width: 800px) {
+        .greeceboat {
+            width:50%;
+            display:block;
+            margin-left:75%;
+            margin-right: auto;
+            margin-top:2rem;
+        }
+    }
+    
+    .wintersolstice {
+        width:50%;
+        display: block;
+        margin-left: 73%;
+        margin-right: auto;
+        margin-top: 2rem; }
+        
+        .beachparty {
+            width: 50%;
+            display:block;
+            margin-left: 73%;
+            margin-right:auto;
+            margin-top: 2rem;
+        }
