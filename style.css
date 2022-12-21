@@ -74,6 +74,7 @@ footer {
            border: 1px solid #FFF5E4;
            border-radius: 1rem;
            box-shadow: 5px 5px 5px #000; 
+            justify-content: space-evenly;
        }
        
        .beachparty img {
@@ -81,6 +82,7 @@ footer {
            height: auto;
            border-radius: 2rem;
            margin: 1rem 0;
+            
        }
        
        
@@ -99,6 +101,7 @@ footer {
            border: 1px solid #FFF5E4;
            border-radius: 1rem;
            box-shadow: 5px 5px 5px #000; 
+        
        }
        
        .wintersolstice img {
@@ -106,6 +109,7 @@ footer {
            height: auto;
            border-radius: 2rem;
            margin: 1rem 0;
+            justify-content: space-evenly;
        }
        
        
@@ -124,6 +128,7 @@ footer {
            border: 1px solid #FFF5E4;
            border-radius: 1rem;
            box-shadow: 5px 5px 5px #000; 
+            
        }
        
        .greeceboat img {
@@ -131,6 +136,7 @@ footer {
            height: auto;
            border-radius: 2rem;
            margin: 1rem 0;
+            justify-content: space-evenly;
        }
        
        
@@ -148,26 +154,35 @@ footer {
     .greeceboat {
         width: 50%;
         display: block;
-        margin-left: 50%;
+        margin-left: auto;
         margin-right: auto;
         margin-top: 2rem;
+        max-width: 35%
+        
+        
     }
 
     .wintersolstice {
         width: 50%;
         display: block;
         margin-left: auto;
-        margin-right: 75%;
+        margin-right: auto;
         margin-top: 2rem;
+        max-width: 35%;
+        
     }
-
-
+    
     .beachparty {
         width: 50%;
         display: block;
         margin-left: auto;
-        margin-right: 100%;
+        margin-right: auto;
         margin-top: 2rem;
+        max-width: 35%;
     }
+
+
+    
+    
 
 }
